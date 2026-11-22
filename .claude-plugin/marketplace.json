@@ -1,0 +1,23 @@
+{
+  "name": "bulbetski-agent-skills",
+  "owner": {
+    "name": "Zakhar Proselkov"
+  },
+  "metadata": {
+    "description": "General skills for coding agents: explanatory writing and skill audits.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "description": "General skills for coding agents: explanatory writing and skill audits.",
+      "source": "./",
+      "strict": false,
+      "license": "MIT",
+      "skills": [
+        "./skills/waterfall-explainer",
+        "./skills/skill-audit"
+      ]
+    }
+  ]
+}
