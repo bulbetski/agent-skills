@@ -4,19 +4,20 @@
     "name": "Zakhar Proselkov"
   },
   "metadata": {
-    "description": "General skills for coding agents: explanatory writing and skill audits.",
+    "description": "General skills for coding agents: explanatory writing, skill audits and a weekly retrospective of Claude Code chats.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "agent-skills",
-      "description": "General skills for coding agents: explanatory writing and skill audits.",
+      "description": "General skills for coding agents: explanatory writing, skill audits and a weekly retrospective of Claude Code chats.",
       "source": "./",
       "strict": false,
       "license": "MIT",
       "skills": [
         "./skills/waterfall-explainer",
-        "./skills/skill-audit"
+        "./skills/skill-audit",
+        "./skills/self-improve"
       ]
     }
   ]
